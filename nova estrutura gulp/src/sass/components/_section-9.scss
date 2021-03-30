@@ -1,0 +1,38 @@
+/**
+TODO: mudar o nome do que ta aqui em baixo
+ * @section Base Styles
+ */
+
+ #section-9 {
+    display: flex;
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBw0HBwcHBwcHBwoHBwcHBw8ICQcKFREWFhURExMYHSggGCYlGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRkrKy0tKysrNysrKysrKzcrKysrLSs3KysrKysrKysrKysrKy0rKysrLSsrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAAAgMBBv/EABcQAQEBAQAAAAAAAAAAAAAAAAABAhH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQIE/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AO8zFcwmYtmOhymzFMwuYpmI0bMPIyRTMRpshpBIeRFEhpBIaQVkhpGyN4is43jeDgM43jeAGcZwwAvGcPxnALwth+MsBOxlilhbFRKwtithLBErE7FrCWKiGonqL6ieoqIaiWovqJais1GwGsCormK5hMxXMRYbMVzC5imYy0bMPIzMPIjTZDyMkPIKJDSCQ0RWSGDQY0NBgaAYGgGBoArDMAthbDssBOwlithLFROxPUVsJqCJaiWovqJ6isoaiWovqJaiojwG4FZUzFcwmYrmI0fMUzCZiuYjRpDyFh4imkNGSHiKIaMhoKGgAAAKAAAAAAAAGNAFrKZlEJS2HpaCdhKrSVWUtRLUW1E9RUR1EtRfUS1FZRsBrAqHyrmJ5WyjR8qZJlTKKeHhYeI0aGhYaIrY0RsAAAUAAAAAAAAAAAAADK1ghaympaBKSqUlVE9JaWqehEdJai2k9NMogwENlbKWVciqZUyTKkZaNFISHgpoaMjYitaAKAAAAAAAAAAAAAAAAAADKWmpaIWkp6TQidJpSp6VEtJ6V0lpWamA1UNlXKWVcosUypE8qRGlIeEh4imhoWGgrYBAKAAAAAAAAAAAAAAAAAADGVrKIWkp6TQhKnpTSelRLSeldJaVKmBQrJsq5SyrlFimVInlSI0pDwkPEU0NCw0FbAIBQAAAAAAAAAAAAAAAAAAYytZRC0mj0mhCaT0pU9KiektK6S0qVOgBUblXKWVchFcqRLKkZaUh4SHgp4aEhoimAAoAAAAAAAAAAAAAAAAAFBjK2lojKTRqSiEpNHqelRPSelNJaVmkDAqNyrlHKuRVcqZSypllVYeJw8GlIaEhoimayNAAAUAAAAAAAAAAAAAADBGVlbS0C0lNSVULU9HqehCaS0ppLTTJKGAQZquajmq5oLZUzUc1TNRpaHiUPEVWGicp4injSxsFMGNFAAAAAAAAAAAAAGMrS0QUtbSWgykpqSqyXVT0bVT1VQmktKaqWqqFrGWgQZquahmq5okWzVc1DNVzUaWzTyo5qkqNKymlTlNKKpDQkppUUzStAwYAaAAAAABgABnWA0tFZaDLS2i0tqoy0lrbSaohdVPVNqp6qoXVS1T6qWqrJegvQqMzVc1DNVzQXzVM1HNUzUVaVTNRzTyo0tKaVKU8qKrKaVKU0oqnTdTlNKim60vR0Ddb0vQBujpR0GjrOs6Des6zrLQbaW1lpbVQWltFpbRGWktFpLVRmqnqt1U9VULqpap9VLVVml6C9CoMq5ABXKmQGWlMnjQimikYEaPDQAGw0AFbGgIrQAAAAMAAMpaAqMpaAIWkoAEpKwKieiaYFZT0loBWUqAFH//Z') no-repeat;
+    background-size: cover;
+   
+    .left-container {
+       width: 60%;
+       padding: 10%;
+       
+       .text-section {
+            width: 65%;
+            font-size: 24px;
+            margin-bottom: 50px;
+        }
+
+        .container-img {
+            overflow: hidden;
+
+            width: 300px;
+            height: 300px;
+        }
+    }
+    
+    .right-container {
+        width: 40%;
+        
+        .title-section {
+           width: 85%;
+           font-size: 36px;
+           margin-bottom: 50px;
+        }
+    }
+}

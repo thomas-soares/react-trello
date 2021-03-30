@@ -1,0 +1,53 @@
+/**
+TODO: mudar o nome do que ta aqui em baixo
+ * @section Base Styles
+ */
+
+#section-3 {
+    display: flex;
+   
+    .left-container {
+       width: 60%;
+       padding: 10%;
+       margin-top: 220px;
+
+        .title-section {
+           width: 85%;
+           font-size: 36px;
+           margin-bottom: 50px;
+        }
+       
+        .text-section {
+           width: 65%;
+           font-size: 24px;
+           margin-bottom: 50px;
+        }
+    }
+
+    .right-container {
+       width: 40%;
+       position: relative;
+
+        .container-img {
+           position: absolute;
+           overflow: hidden;
+
+            &.image-1 {
+                top: -200px;
+                right: 390px;
+                width: 500px;
+                height: 500px;
+            }
+           
+            &.image-2 {
+                position: absolute;
+                top: 200px;
+                right: 0;
+                z-index: 1;
+
+                width: 600px;
+                height: 700px;
+            }
+        }
+    }
+}

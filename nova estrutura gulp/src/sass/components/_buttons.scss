@@ -1,0 +1,28 @@
+/**
+ * @section Base Styles
+ */
+
+.btn {
+    border: none;
+    width: 270px;
+    height: 70px;
+    
+    &-primary {
+        background: $black;
+        color: $white;
+
+        &:hover {
+
+        }
+    }
+    
+    &-secondary {
+        background: transparent;
+        color: $black;
+        border: 1px solid;
+
+        &:hover {
+
+        }
+    }
+}
