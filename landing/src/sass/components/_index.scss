@@ -98,3 +98,25 @@ h1, h2, h3, h4, h5, h6 {
 		}
 	}
 }
+
+.header-svg {
+	position: relative;
+
+	.sep {
+		width: 100%;
+		height: 7.2em;
+		position: absolute;
+		top: -99px;
+		left: 0;
+		bottom: auto;
+		z-index: 1000;
+
+		path {
+			fill: #FFF;
+		}
+	}
+	
+	svg:not(:root) {
+		overflow: hidden;
+	}
+}
