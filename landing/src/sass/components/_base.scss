@@ -2,17 +2,118 @@
  * @section Base Styles
  */
 
+// body {
+// 	font-size: 125%;
+// 	margin: 0 auto;
+// 	max-width: 42em;
+// 	width: 88%;
+// }
+
+// input,
+// textarea,
+// select,
+// button {
+// 	font: inherit;
+// }
+
+
+
+
+
 body {
-	font-size: 125%;
-	margin: 0 auto;
-	// max-width: 42em;
-	// width: 88%;
-	width: 1366px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-input,
-textarea,
-select,
-button {
-	font: inherit;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+
+	&.navbar-default {
+		background-color: transparent;
+		border-color: transparent;
+	}
+
+	.navbar-brand {
+
+		img {
+			height: 2em;
+		}
+	}
+
+	.navbar-nav {
+
+		li {
+
+			a {
+				text-transform: uppercase;
+				opacity: 0.7;
+				font-weight: 600;
+				color: #FFF;
+				font-size: 1.1em;
+				transition: all 0.3s;
+
+				&:hover {
+					color: #FFF;
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	background: linear-gradient(to right, #02D4A7, #01B4A0);
+	color: #FFF;
+	padding: 11em 0;
+	height: 600px;
+
+	h1 {
+		font-size: 4.3em;
+	}
+
+	h2 {
+		font-weight: 300;
+	}
+
+	.btn-header-custom {
+		color: #0BB297;
+		background: #FFF;
+		border: 1px solid #FFF;
+		margin: 1.5em 0;
+		transition: all 0.3s;
+
+		&:hover,
+		&:focus {
+			background: transparent;
+			color: #FFF;
+			border: 1px solid #FFF;
+		}
+	}
+}
+
+.header-svg {
+	position: relative;
+
+	.sep {
+		width: 100%;
+		height: 7.2em;
+		position: absolute;
+		top: -99px;
+		left: 0;
+		bottom: auto;
+		z-index: 1000;
+
+		path {
+			fill: #FFF;
+		}
+	}
+	
+	svg:not(:root) {
+		overflow: hidden;
+	}
 }
