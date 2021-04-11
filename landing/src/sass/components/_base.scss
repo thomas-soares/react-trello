@@ -119,6 +119,44 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+#about {
+	padding: 7em 0;
+
+	h1 {
+		color: #212121;
+		font-weight: 600;
+		font-size: 5em;
+	}
+
+	h3 {
+		color: #727272;
+		font-weight: 300;
+		font-size: 2.2em;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-weight: 300;
+		font-size: 1.4em;
+		color: #727272;
+		padding: 1.4em 0;
+		text-align: justify;
+	}
+
+	a {
+		background: #04C89F;
+		border-color: #04C89F;
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: 600;
+		border-radius: 12%;
+	}
+
+	img {
+		padding: 9.5em 0;
+	}
+}
+
 .footer {
 	background: #EDEDED;
 
