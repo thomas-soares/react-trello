@@ -157,6 +157,31 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+#features {
+	padding: 7.5em 0;
+	h2 {
+		color: #212121;
+		font-weight: 600;
+		font-size: 5em;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			font-size: 1.5em;
+			color: #727272;
+			font-weight: 300;
+			margin-bottom: 1em;
+			i {
+				color: #25E2BB;
+			}
+		}
+	}
+	img {
+		padding: 7em 0;
+	}
+}
+
 .footer {
 	background: #EDEDED;
 
